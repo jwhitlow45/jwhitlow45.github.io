@@ -1,4 +1,20 @@
+html,
 body {
-    background-color: grey;
-    height: 100vh;
+  background-color: white;
+  height: 100vh;
+}
+
+#progress {
+  margin: auto;
+  margin-top: 5em;
+  text-align: center;
+}
+
+#progress-education-bar {
+  /* spacing */
+  margin: auto;
+  margin-top: 0.5em;
+
+  /* sizing */
+  width: 50%;
 }

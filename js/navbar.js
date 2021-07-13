@@ -27,7 +27,18 @@ function clearPageContent() {
   page_content.innerHTML = "";
 }
 
-function changePageContent(event) {
+async function changePageContent(event) {
   clearPageContent();
+  toggleHamburgerMenu();
   $(page_content).load("./html/" + event.target.id + ".html");
+  var interval;
+  if (event.target.id == "education") {
+    await new Promise(r => setTimeout(r, 10));
+    setProgress();
+    interval = window.setInterval(() => {
+      setProgress();
+    }, 60000);
+  } else {
+    clearInterval(interval);
+  }
 }
