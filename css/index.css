@@ -4,6 +4,13 @@ body {
   height: 100vh;
 }
 
+#socials {
+  height: 32px;
+  margin-top: 5px;
+  margin-right: 4px;
+  border-radius: 50%;
+}
+
 #progress {
   margin: auto;
   margin-top: 5em;
