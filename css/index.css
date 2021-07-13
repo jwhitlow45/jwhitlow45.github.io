@@ -6,8 +6,9 @@ body {
   height: 100vh;
 }
 
-#education-img {
-  height: 24px;
+/* cards */
+#card-img {
+  height: 48px;
 }
 
 .card {
@@ -19,6 +20,13 @@ body {
   width: 75%;
 }
 
+/* all but education */
+.no-bar {
+  /* spacing */
+  margin-top: 5em;
+}
+
+/* education */
 #progress {
   margin: auto;
   margin-top: 5em;
