@@ -1,14 +1,22 @@
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css";
+
 html,
 body {
   background-color: white;
   height: 100vh;
 }
 
-#socials {
-  height: 32px;
-  margin-top: 5px;
-  margin-right: 4px;
-  border-radius: 50%;
+#education-img {
+  height: 24px;
+}
+
+.card {
+  /* spacing */
+  margin: auto;
+  margin-top: 16px;
+
+  /* sizing */
+  width: 75%;
 }
 
 #progress {
