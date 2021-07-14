@@ -33,23 +33,36 @@ body {
   width: 75%;
 }
 
-/* all but education */
 .no-bar {
   /* spacing */
-  margin-top: 5em;
+  margin-top: 4em;
+
+  /* sizing */
+  font-size: larger;
+}
+
+.header-icon {
+  color: #398FCD;
+  width: 32px;
+  height: 32px;
+}
+
+.page-header {
+ padding-left: 0px; 
 }
 
 /* education */
 #progress {
   margin: auto;
-  margin-top: 5em;
+  margin-top: 16px;
   text-align: center;
 }
 
 #progress-education-bar {
   /* spacing */
   margin: auto;
-  margin-top: 0.5em;
+  margin-top: 2em;
+  margin-bottom: 0.5em;
 
   /* sizing */
   width: 50%;
