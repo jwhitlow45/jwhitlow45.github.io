@@ -42,13 +42,17 @@ body {
 }
 
 .header-icon {
-  color: #398FCD;
+  color: #398fcd;
   width: 32px;
   height: 32px;
 }
 
+.card-header-title {
+  padding-left: 8px;
+}
+
 .page-header {
- padding-left: 0px; 
+  padding-left: 0px;
 }
 
 /* education */
