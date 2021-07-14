@@ -42,13 +42,16 @@ body {
 }
 
 .header-icon {
-  color: #398fcd;
   width: 32px;
   height: 32px;
 }
 
 .card-header-title {
   padding-left: 8px;
+}
+
+.card-link {
+  color: #398fcd;
 }
 
 .page-header {
