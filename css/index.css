@@ -6,8 +6,16 @@ body {
   height: 100vh;
 }
 
+/* navbar */
+@media (min-width:1024px) {
+  .navbar-start {
+    margin-left: calc(12.5% - 52px);
+  }
+}
+
 /* cards */
 #card-img {
+  /* sizing */
   height: 48px;
 }
 
