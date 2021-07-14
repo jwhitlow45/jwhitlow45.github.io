@@ -41,3 +41,8 @@ async function changePageContent(event) {
     setProgress();
   }
 }
+
+//load on js load
+function init() {
+  $(page_content).load("./html/home.html");
+}
