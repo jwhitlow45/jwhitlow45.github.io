@@ -4,8 +4,18 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/navbar.css" />
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//fonts.googleapis.com/css?family=Open+Sans"
+    />
+    <link rel="stylesheet" href="./css/index.css" />
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <script defer src="./js/progress_bar.js"></script>
     <script defer src="./js/navbar.js"></script>
     <title>Jacob Whitlow's Portfolio</title>
   </head>
@@ -17,7 +27,7 @@
     >
       <div class="navbar-brand">
         <a class="navbar-item" href="https://jwhitlow45.github.io">
-          <img src="./img/brand-white.png" />
+          <img src="./img/brand/brand-white.png" />
         </a>
         <a
           id="navbar-burger"
@@ -40,7 +50,34 @@
           <a id="projects" class="navbar-item">Projects</a>
           <a id="references" class="navbar-item">References</a>
         </div>
-        <div class="navbar-end"></div>
+        <div class="navbar-end">
+          <a
+            id="socials"
+            class="navbar-item"
+            href="https://github.com/jwhitlow45"
+          >
+            <picture>
+              <source
+                media="(min-width: 1024px)"
+                srcset="./img/socials/logo-github.png"
+              />
+              <img src="./img/socials/logo-github-black.png" />
+            </picture>
+          </a>
+          <a
+            id="socials"
+            class="navbar-item"
+            href="https://linkedin.com/in/jwhitlow45"
+          >
+            <picture>
+              <source
+                media="(min-width: 1024px)"
+                srcset="./img/socials/logo-linkedin.png"
+              />
+              <img src="./img/socials/logo-linkedin-black.png" />
+            </picture>
+          </a>
+        </div>
       </div>
     </div>
     <div id="content"></div>

@@ -23,11 +23,21 @@ function toggleHamburgerMenu() {
   navbar_menu.classList.toggle("is-active");
 }
 
+function closeHamburgerMenu() {
+  hamburger_menu.classList.remove("is-active");
+  navbar_menu.classList.remove("is-active");
+}
+
 function clearPageContent() {
   page_content.innerHTML = "";
 }
 
-function changePageContent(event) {
+async function changePageContent(event) {
   clearPageContent();
+  closeHamburgerMenu();
   $(page_content).load("./html/" + event.target.id + ".html");
+  if (event.target.id == "education") {
+    await new Promise((r) => setTimeout(r, 10));
+    setProgress();
+  }
 }
