@@ -7,6 +7,7 @@ const navbar_education = document.getElementById("education");
 const navbar_experience = document.getElementById("experience");
 const navbar_projects = document.getElementById("projects");
 const navbar_references = document.getElementById("references");
+const navbar_posts = document.getElementById("posts");
 // page content
 const page_content = document.getElementById("content");
 
@@ -17,6 +18,7 @@ navbar_education.addEventListener("click", changePageContent);
 navbar_experience.addEventListener("click", changePageContent);
 navbar_projects.addEventListener("click", changePageContent);
 navbar_references.addEventListener("click", changePageContent);
+navbar_posts.addEventListener("click", changePageContent);
 
 function toggleHamburgerMenu() {
   hamburger_menu.classList.toggle("is-active");
